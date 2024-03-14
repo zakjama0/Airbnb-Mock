@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+header{
+    top: 0;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav img{
+    width: 10%;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 30%;
+}
+header nav div li{
+    text-decoration: none;
+    list-style: none;
+}
+/* header nav div i{
+    
+} */
+
+.profile a{
+    text-decoration: none;
+    color: black;
+}
+.profile a:hover{
+    background-color: lightgray;
+    color: black;
+    padding: 8px;
+    border-radius: 20px;
+    /* transition: 0.5s; */
+  }
+
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    box-shadow: 5px 1px #888888;
+}
+.categories div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categories i{
+    text-decoration: none;
+    color: grey;
+    size: 20px;
+}
+
+.categories i:hover{
+    color: black;
+    border-radius: 20px;
+    /* transition: 0.5s; */
+  }
+
+  main img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+      
+  }
+
+.location__card div {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+section h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section{
+    padding: 0px 50px;
+}
+
+.location__card{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.location__card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.location_pricing{
+    font-weight: 675;
+}
+
+.location_subheading{
+    font-weight: 650;
+    font-size: 20px;
+}
+
+
+
+footer {
+    bottom:0
+}
+
+footer nav div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+}
+
+footer nav div li{
+    list-style: none;
+    
+}
+footer nav div li a{
+    text-decoration: none;
+    color: black;
+}
